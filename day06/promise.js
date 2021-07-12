@@ -149,4 +149,4 @@ const pass = prompt('enter password');
 userStorage.loginUser(id,pass)
   .then(userStorage.getRoles)
   .then(user =>alert(`Hello ${userWithRole.name}, you have a ${userWithRole.role} role`))
-  .catch(console.log);  
+  .catch(console.log);
