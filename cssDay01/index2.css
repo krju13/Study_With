@@ -1,0 +1,13 @@
+.red {
+  width: 100px;
+  height: 100px;
+  /* padding: top right bottom left; */
+  /* padding : top-bottom right-left; */
+  padding: 20px 0px;
+  margin: 20px;
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: pink; */
+  border: 2px dashed red;
+  background: yellow;
+}

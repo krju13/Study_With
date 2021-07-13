@@ -1,0 +1,28 @@
+*{
+  color:green;
+}
+li {
+  color: blue;
+}
+
+li#special{
+  color:pink;
+}
+
+.red{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+button:hover {
+  color: red;
+  background: beige;
+}
+
+a[href^="naver"]{
+  color: purple;
+}
+a[href$=".com"]{
+  color: rgb(128, 60, 0);
+}
