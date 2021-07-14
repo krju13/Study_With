@@ -1,0 +1,82 @@
+.container{
+  padding-top: 100px;
+  background: beige;
+  height: 80vh;
+  display: flex;
+  /*이제부터 너는 flexbox야 라고 알려주는 부분*/
+  /* flex-direction: row; */
+  /* 기본 값은 row 왼쪽에서 오른쪽 */
+  /* flex-direction: row-reverse; */
+  /* row-reverse: 오른쪽에서 왼쪽으로 */
+  /* flex-direction: column; */
+  /* 중심축 세로로 & 위에서 아래로 */
+  /* flex-direction: column-reverse; */
+  /* 아래에서 위로 */
+  /* flex-wrap: nowrap; */
+  /* 기본값 아이템이 많아도 한줄에 모든 아이템이 다 보이게 */
+  /* flex-wrap: wrap; */
+  /* 아이템이 꽉차면 자동으로 다음 라인으로 넘어간다. */
+  /* flex-wrap: wrap-reverse; */
+  /* 거꾸로 꽉차면 윗줄로 이동한다. */
+  /* flex-flow: column nowrap; */
+  /* flex-direction + flex-wrap 을 한번에 지정하기 */
+  /* justify-content: flex-start; */
+  /* 기본값- 왼쪽에서 오른쪽, 위에서 아래 */
+  /* justify-content: flex-end; */
+  /* 오른쪽에서 왼쪽, 아래에서 위 */
+  /* column-reverse 는 아이템 순서도 바꾸지만 content는 순서는 바꾸지 않는다. */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* 아이템을 둘러서 스페이스를 둘러준다. margin처럼 중복되지 않아서 아이템중간은 2개의 공간 맨끝은 1개의 공간이 들어간다고 생각할 수있다. */
+  /* justify-content: space-evenly; */
+  /* 똑같은 간격을 넣어준다. */
+  /* justify-content: space-between; */
+  /* 맨끝은 공간 없이 중간에만 공간 넣어서 */
+  /* align-items: center; */
+  /* 반대축에서 아이템 정렬 */
+  /* align-items: baseline; */
+  /* 텍스트가 보이는 곳이 맞춰져서 보여진다. */
+  /* align-content: space-between; */
+  /* 반대축 기준 아이템의 중간 공간 설정 */
+
+}
+.item{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.item1{
+  background: #ef9a9a;
+  flex:2 2 auto;/*grow, shrink, basis*/
+  align-self: center;
+  /* 아이템 하나만 반대축에 맞게 정렬하는 법 */
+}
+.item2{
+  background: #f48fb1;
+  flex-basis: 30%;
+}
+.item3{
+  background: #ce93d8;
+  flex-basis: 10%;
+}
+.item4{
+  background: #b39ddb;
+}
+.item5{
+  background: #90caf9;
+}
+.item6{
+  background: #a5d6a7;
+}
+.item7{
+  background: #a6d6a7;
+}
+.item8{
+  background: #fff59d;
+}
+.item9{
+  background: #ffcc80;
+}
+.item10{
+  background: #ffab91;
+}
