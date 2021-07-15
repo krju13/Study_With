@@ -34,7 +34,6 @@
   /* 맨끝은 공간 없이 중간에만 공간 넣어서 */
   /* align-items: center; */
   /* 반대축에서 아이템 정렬 */
-  /* align-items: baseline; */
   /* 텍스트가 보이는 곳이 맞춰져서 보여진다. */
   /* align-content: space-between; */
   /* 반대축 기준 아이템의 중간 공간 설정 */
